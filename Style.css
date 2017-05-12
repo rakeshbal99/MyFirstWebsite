@@ -53,19 +53,16 @@ li.dropdown {
     display: block;
 }
 
-.margin{margin:16px!important}
-.center{text-align:center!important}
-.red{color:#fff!important;background-color:/*#4ABDAC*/#f44336!important}	
-.jumbo{font-size:64px!important}
-.xlarge{font-size:24px!important}
-
-.header-class{
-  color:#fff!important;
-  background-color: #f44336!important;
-  text-align: center!important;
-}
-
-
+.h1-class{margin:16px!important}
+.header-class{text-align:center!important}
+.header-class{color:#fff!important;background-color:/*#4ABDAC*/#f44336!important}
+.h1-class{font-size:64px!important}
+.h2-class{font-size:24px!important}
+.h2contact-class{font-size :45px; }
+/*.h1-class{
+  font-family: 'Amarnath', sans-serif;
+  font-size: 20px;
+}*/
 .button{
   color: #fff;
   background-color: #000;
@@ -75,21 +72,32 @@ li.dropdown {
 }
 .button:hover{color:#000!important;background-color:#ccc!important}
 
-img {
-  width: 150px;
-  height: 250px;
-  float: right;
-  padding-left: 40px;
-}
 
-.padding-64{padding-top:64px!important;padding-bottom:64px!important}
-.container,.panel{padding:0.01em 16px;background-color: /*#ccffff*/#ffcc66}
-.container{padding:0.01em 16px}
+.header-class{padding:0.01em 16px;background-color: /*#ccffff*/#ffcc66}
+/*.header-class{padding:0.01em 16px}*/
+
+.body-text{padding-top:64px!important;padding-bottom:64px!important}
+.body-text,.panel{padding:0.01em 16px;background-color: #ccffff/*#f9d2e4*//*#ccffff*//*#ffcc66*/}
+.body-text{padding:0.01em 16px}
+.body-text{
+  background-color: ;
+  border:3px dashed red;
+}
 
 .content{
     max-width:1080px;
     margin:auto}
 
+img {
+  width: 200px;
+  height: 300px;
+  float: right;
+  padding-left: 150px;
+/*  padding-bottom: 200px;*/
+}    
+.align-text{
+  text-align: justify;
+}
 .icons{
     background-color: /*#ffcce6#f44336*/#ff9999;
     margin-top: 1px;
@@ -145,4 +153,13 @@ img {
   background-color: #0084b4;
   border:2px solid #0084b4;
   color:white;
+}
+
+.icons2 .click{
+    width: 60px;
+  height: 60px;
+    font-size: 50px;
+}
+.icons2 .click:hover{
+  margin-left: -0.5px;
 }
