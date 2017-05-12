@@ -1,4 +1,20 @@
-/*.Hobbies{
-	background-color: blue ;
-	border:5px dashed red;
-}*/
+.Achievements{
+	background-color: #588c7e ;
+/*	margin: 2px dashed blue ;*/
+	color: white; 
+}
+.Interests{
+	background-color: #f2e394 ;
+/*	margin: 2px dashed blue ;*/
+}
+
+.Hobbies{
+	background-color: #f2ae72 ;
+/*	margin: 2px dashed blue */;
+}
+
+.Involvements{
+	background-color: #d96459 ;
+/*	margin: 2px dashed blue ;*/
+	color: white;
+}
