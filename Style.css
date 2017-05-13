@@ -53,11 +53,12 @@ li.dropdown {
     display: block;
 }
 
-.h1-class{margin:16px!important}
 .header-class{text-align:center!important}
 .header-class{color:#fff!important;background-color:/*#4ABDAC*/#f44336!important}
+.header-class{padding:0.01em 16px;background-color: /*#ccffff*/#ffcc66}
 .h1-class{font-size:64px!important}
-.h2-class{font-size:24px!important}
+.h1-class{margin:16px!important}
+.h2-class{font-size:32px!important}
 .h2contact-class{font-size :45px; }
 /*.h1-class{
   font-family: 'Amarnath', sans-serif;
@@ -72,17 +73,9 @@ li.dropdown {
 }
 .button:hover{color:#000!important;background-color:#ccc!important}
 
-
-.header-class{padding:0.01em 16px;background-color: /*#ccffff*/#ffcc66}
-/*.header-class{padding:0.01em 16px}*/
-
 .body-text{padding-top:64px!important;padding-bottom:64px!important}
 .body-text,.panel{padding:0.01em 16px;background-color:#eeac99/*#f189738*//* #fefbd8*//*#ccffff*//*#f9d2e4*//*#ccffff*//*#ffcc66*/}
 .body-text{padding:0.01em 16px}
-.body-text{
-  background-color: ;
-/*  border:3px dashed red;*/
-}
 
 .content{
     max-width:1080px;
@@ -93,7 +86,6 @@ img {
   height: 300px;
   float: right;
   padding-left: 150px;
-/*  padding-bottom: 200px;*/
 }    
 .align-text{
   text-align: justify;
@@ -162,4 +154,18 @@ img {
 }
 .icons2 .click:hover{
   margin-left: -0.5px;
+}
+.input-text{
+	font-size: 30px;
+	text-align: left;
+	padding-left: 22%;
+}
+.submit{
+	width: 71.5%;
+	padding: 5px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.submit:hover{
+	background-color: #ffcc66;
 }
