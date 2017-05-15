@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,6 +11,7 @@ ul {
 li {
     float: left;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    font-family: 'Amarnath', sans-serif;
 }
 
 li a, .dropbtn {
@@ -37,6 +39,7 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
     z-index: 1;
+    font-family: 'Amarnath', sans-serif;
 }
 
 .dropdown-content a {
@@ -45,6 +48,7 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: 'Amarnath', sans-serif;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -59,11 +63,12 @@ li.dropdown {
 .h1-class{font-size:64px!important}
 .h1-class{margin:16px!important}
 .h2-class{font-size:32px!important}
-.h2contact-class{font-size :45px; }
-/*.h1-class{
+.h2contact-class{font-size :45px; 
+font-family: 'Amarnath', sans-serif;
+}
+.h1-class{
   font-family: 'Amarnath', sans-serif;
-  font-size: 20px;
-}*/
+}
 .button{
   color: #fff;
   background-color: #000;
@@ -89,6 +94,7 @@ img {
 }    
 .align-text{
   text-align: justify;
+  font-family: 'Amarnath', sans-serif;
 }
 .icons{
     background-color: /*#ffcce6#f44336*//*#ff9999*/#f9d5e5;
@@ -168,4 +174,21 @@ img {
 }
 .submit:hover{
 	background-color: #ffcc66;
+}
+
+.Achievements{
+  background-color: #588c7e ;
+  color: white; 
+}
+.Interests{
+  background-color: #f2e394 ;
+}
+
+.Hobbies{
+  background-color: #f2ae72 ;
+}
+
+.Involvements{
+  background-color: #d96459 ;
+  color: white;
 }
