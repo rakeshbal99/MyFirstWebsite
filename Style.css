@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
